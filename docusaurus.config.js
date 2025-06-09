@@ -10,21 +10,21 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ReactJS",
+  title: "NodeJS",
   tagline:
-    "Everything about ReactJS, its reference links & technical documentations",
+    "Everything about NodeJS, its reference links & technical documentations",
   favicon: "/img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://pravn27.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/reactjs-tech-doc/",
+  baseUrl: "/nodejs-tech-doc/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "pravn27", // Usually your GitHub org/user name.
-  projectName: "reactjs-tech-doc", // Usually your repo name.
+  projectName: "nodejs-tech-doc", // Usually your repo name.
   deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -46,7 +46,7 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/pravn27/reactjs-tech-doc/tree/master",
+          editUrl: "https://github.com/pravn27/nodejs-tech-doc/tree/master",
         },
         blog: {
           showReadingTime: true,
@@ -55,7 +55,7 @@ const config = {
             xslt: true,
           },
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/pravn27/reactjs-tech-doc/tree/master",
+          editUrl: "https://github.com/pravn27/nodejs-tech-doc/tree/master",
           // Useful options to enforce blogging best practices
           onInlineTags: "warn",
           onInlineAuthors: "warn",
@@ -85,8 +85,8 @@ const config = {
           //   label: "About VS System",
           // },
           {
-            to: "/docs/category/reactjs-documentations",
-            label: "ReactJS",
+            to: "/docs/category/nodejs-documentations",
+            label: "NodeJS",
             position: "left",
           },
           {
@@ -109,11 +109,11 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "ReactJS",
+            title: "NodeJS",
             items: [
               {
-                label: "ReactJS",
-                to: "/docs/category/reactjs-documentations",
+                label: "NodeJS",
+                to: "/docs/category/nodejs-documentations",
               },
             ],
           },
@@ -131,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ReactJS tech docs. Built with Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} NodeJS tech docs. Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,

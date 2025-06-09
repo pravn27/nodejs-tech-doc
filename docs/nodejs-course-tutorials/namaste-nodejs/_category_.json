@@ -1,0 +1,8 @@
+{
+  "label": "Namaste NodeJS",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Understand core NodeJS & how NodeJS works behind the scene"
+  }
+}

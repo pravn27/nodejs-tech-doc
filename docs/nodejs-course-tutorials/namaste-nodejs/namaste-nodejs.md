@@ -2,11 +2,7 @@
 sidebar_position: 1
 ---
 
-# Namaste ReactJS by Akshay Saini 2024 - 2025
-
-## Complete Namaste ReactJS Series notes
-
-    - https://github.com/pravn27/reactjs-tech-doc/blob/master/docs/reactjs-course-tutorials/namaste-reactjs-course/readerDoc/Complete-Namaste-React-Series-2025.pdf
+# Namaste NodeJS by Akshay Saini 2025 - 2026
 
 ## Important Guidelines
 
